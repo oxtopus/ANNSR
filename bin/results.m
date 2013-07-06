@@ -1,0 +1,9 @@
+r=[sigmoid(v*sigmoid(w*t1+bias)+bias);
+sigmoid(v*sigmoid(w*t2+bias)+bias);
+sigmoid(v*sigmoid(w*t3+bias)+bias);
+sigmoid(v*sigmoid(w*t4+bias)+bias);
+sigmoid(v*sigmoid(w*t5+bias)+bias);
+sigmoid(v*sigmoid(w*t6+bias)+bias);
+sigmoid(v*sigmoid(w*t7+bias)+bias);
+sigmoid(v*sigmoid(w*t8+bias)+bias)]
+max(r)
